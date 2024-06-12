@@ -15,6 +15,10 @@ Algorithmen und künstliche Intelligenz werden immer prominenter, doch wie abhä
 {{</lead>}} 
 
 > ![Der Kontakt zwischen Mensch und Maschine wird immer häufiger und direkter.](bild1-transformed.jpeg)
+<p align="center">
+  <img src="bild1-transformed.jpeg" alt="Mensch und Maschine" style="width:100%">
+  <figcaption align="center">Der Kontakt zwischen Mensch und Maschine wird immer häufiger und direkter.</figcaption>
+</p>
 
 In einer Pause zwischen zwei Lektionen Einführung Wirtschaft und Recht (EWR) sieht Nicolas Kiechler, Fachlehrperson für Wirtschaft und Recht am Gymnasium Kirchenfeld, wie ein Schüler mithilfe von Copilot, der künstlichen Intelligenz von Microsoft, eine ganze HTML-Datei in eine einzige Zeile umschreibt. Obwohl er einer der jüngsten Lehrkräfte an dem gesamten Gymnasium ist, kam er in seinem Studium nicht in Kontakt mit ähnlichen Technologien: «Es war nicht so verbreitet, wie es heute der Fall ist.» Schüler heutzutage haben mehr Freiheit: «Verschiedenste Male wird das benutzt», sagt Kiechler über ChatGPT. Neugierde ist doch normal, oder? Aus diesem Grund treffen wir uns einige Wochen später online zum Interview: ChatGPT in der Schule, sollte das erlaubt sein? Der Gymnasiallehrer ist der Meinung, die Benutzung dieser Technologie sollte in Bildungsinstitutionen sogar gefördert werden: «Es ist ein Hilfsmittel, das den Schülerinnen und Schülern zur Verfügung steht», so Kiechler.
 <p align="center">
@@ -48,7 +52,7 @@ Als komfortables und unkompliziertes Hilfsmittel ist KI gerne die erste Anlaufst
 
 <p align="center">
   <img src="leutenegger.jpeg" alt="Jean-Marc Leutenegger" style="width:50%">
-  <figcaption>Jean-Marc Leutenegger Leiter der Informatik BLS </figcaption>
+  <figcaption align="center">Jean-Marc Leutenegger Leiter der Informatik BLS </figcaption>
 </p>
 
  Sicherheit ist jedoch nicht das einzige Problem: Privatsphäre wird gerade intensiv in verschiedenen Staaten diskutiert. Gerade weil die Benutzung künstlicher Intelligenzen zunimmt und zunehmen wird, entstehen immer mehr Konflikte, zum Beispiel Urheberrechtsverletzungen bei Bildern, die verwendet wurden, um generative KIs zu trainieren. Diese urheberrechtlich geschützten Bilder können dann von der KI als «Inspiration» für «neue» Bilder benutzt werden. Laut Leutenegger ist das aber kein Grund zur Sorge, es würden sich in der Zukunft Regeln und Gesetzte einpendeln, mit denen schliesslich eine korrekte und faire Benutzung gewährleistet werden kann.
