@@ -75,19 +75,19 @@
   <script>
       function toggleMode() {
      var currentStylesheet = document.getElementById('modeStylesheet');
-     var isDarkMode = currentStylesheet.href.includes('darkmain.css');
+     var isDarkMode = currentStylesheet.href.includes('/css/darkmain.css');
 
      // Toggle between dark mode and light mode
      if (isDarkMode) {
-         currentStylesheet.href = 'darkmain.css';
+         currentStylesheet.href = '/css/darkmain.css';
       } else {
-          currentStylesheet.href = 'lightmain.css';
+          currentStylesheet.href = '/css/lightmain.css';
       }
   
       if (isDarkMode) {
-         currentStylesheet.href = 'Darkmode.bootstrap.min.css';
+         currentStylesheet.href = '/css/Darkmode.bootstrap.min.css';
       } else {
-          currentStylesheet.href = 'Lightmode.bootstrap.min.css';
+          currentStylesheet.href = '/css/Lightmode.bootstrap.min.css';
       }
   }
 
