@@ -14,7 +14,6 @@ footnotes = ""
 Algorithmen und künstliche Intelligenz werden immer prominenter, doch wie abhängig sind wir wirklich?
 {{</lead>}} 
 
-> ![Der Kontakt zwischen Mensch und Maschine wird immer häufiger und direkter.](bild1-transformed.jpeg)
 <p align="center">
   <img src="bild1-transformed.jpeg" alt="Mensch und Maschine" style="width:100%">
   <figcaption align="center">Der Kontakt zwischen Mensch und Maschine wird immer häufiger und direkter.</figcaption>
