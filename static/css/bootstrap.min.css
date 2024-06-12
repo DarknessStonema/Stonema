@@ -140,8 +140,8 @@ hr{
     font-size:1rem
 }
 p{
-    margin-top:0;
-    margin-bottom:1rem
+    margin-right: 150px;
+    margin-left: 150px;
 }
 abbr[title]{
     -webkit-text-decoration:underline dotted;
