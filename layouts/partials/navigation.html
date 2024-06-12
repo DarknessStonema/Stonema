@@ -73,27 +73,24 @@
     </div>
   </div>
   <script>
-    const switchElement = document.getElementById('dark-mode-switch');
-    const body = document.body;
+      function toggleDarkLight() {
+      var body = document.body;
+      var currentClass = body.className;
 
-    switchElement.addEventListener('change', () => {
-      if (switchElement.checked) {
-        // Load light mode CSS files
-        loadCSS('Lightmode.bootstrap.min.css');
-        loadCSS('lightmain.css');
-      } else {
-        // Disable dark mode
-        loadCSS('Darkmode.bootstrap.min.css');
-        loadCSS('darkmain.css');
+      // Toggle between 'dark-mode' and 'light-mode'
+      body.className = currentClass === 'dark-mode' ? 'light-mode' : 'dark-mode';
+
+      // Store the current mode in local storage
+      localStorage.setItem('stateMode', body.className);
+  }
+
+// Set initial mode on page load
+  document.addEventListener('DOMContentLoaded', function () {
+      var savedMode = localStorage.getItem('stateMode');
+      if (savedMode) {
+          document.body.className = savedMode;
       }
-    });
+  });
 
-    // Function to dynamically load CSS files
-    function loadCSS(filename) {
-      const link = document.createElement('link');
-      link.rel = 'stylesheet';
-      link.href = filename;
-      document.head.appendChild(link);
-    }
   </script>
 </nav>
