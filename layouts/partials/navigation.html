@@ -59,7 +59,7 @@
 
     <div class="collapse navbar-collapse" id="main-navigation">
     <a class="nav-link " href="/">Stonema</a>
-    <input type="checkbox" class="theme-checkbox" id="dark-mode-switch" onchange="toggleMode()">
+    <input type="checkbox" class="theme-checkbox" id="dark-mode-switch" onclick="toggleMode()">
       <!-- Begin Menu -->
       <ul class="navbar-nav ms-auto">
         {{ $currentUrl := .RelPermalink }}
@@ -72,22 +72,5 @@
       <!-- End Menu -->
     </div>
   </div>
-  <script>
-    function toggleMode() {
-     var currentStylesheet = document.getElementById('modeStylesheet');
-     var isDarkMode = currentStylesheet.href.includes('/css/darkmain.css');
-     var isLightkMode = currentStylesheet.href.includes('/css/lightmain.css');
-
-     // Toggle between dark mode and light mode
-     if (isDarkMode) {
-         currentStylesheet.href = '/css/darkmain.css';
-      } else {
-          currentStylesheet.href = '/css/lightmain.css';
-      }
-  }
-
-      // Set initial mode (you can choose light mode as defauslt)
-    document.getElementById('modeStylesheet').href = '/css/darkmain.css';
-
-  </script>
+  <script src="/js/darkmodeswitch.js"></script>
 </nav>
