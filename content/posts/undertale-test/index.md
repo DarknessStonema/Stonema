@@ -1,5 +1,5 @@
 +++
-title = "Undertale"
+![](untitled.png)
 date = "2024-05-06"
 draft = true
 pinned = false
@@ -7,7 +7,7 @@ tags = ["Undertale"]
 image = "header.jpg"
 description = "An Undertale Wiki"
 +++
-![](untitled.png)
+
 
 ## Welcome to the Undertale Wiki
 
