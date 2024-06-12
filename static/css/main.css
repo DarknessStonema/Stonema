@@ -462,7 +462,7 @@ hr {
 .article-content dl,
 .article-content ol,
 .article-content ul {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.2px;
 }
 
 .article-content > div {
