@@ -18,6 +18,7 @@ Algorithmen und künstliche Intelligenz werden immer prominenter, doch wie abhä
 </figure>
 
 In einer Pause zwischen zwei Lektionen Einführung Wirtschaft und Recht (EWR) sieht Nicolas Kiechler, Fachlehrperson für Wirtschaft und Recht am Gymnasium Kirchenfeld, wie ein Schüler mithilfe von Copilot, der künstlichen Intelligenz von Microsoft, eine ganze HTML-Datei in eine einzige Zeile umschreibt. Obwohl er einer der jüngsten Lehrkräfte an dem gesamten Gymnasium ist, kam er in seinem Studium nicht in Kontakt mit ähnlichen Technologien: «Es war nicht so verbreitet, wie es heute der Fall ist.» Schüler heutzutage haben mehr Freiheit: «Verschiedenste Male wird das benutzt», sagt Kiechler über ChatGPT. Neugierde ist doch normal, oder? Aus diesem Grund treffen wir uns einige Wochen später online zum Interview: ChatGPT in der Schule, sollte das erlaubt sein? Der Gymnasiallehrer ist der Meinung, die Benutzung dieser Technologie sollte in Bildungsinstitutionen sogar gefördert werden: «Es ist ein Hilfsmittel, das den Schülerinnen und Schülern zur Verfügung steht», so Kiechler.
+
 <figure align="center">
   <img src="portrait.jpg" alt="Nicolas Kiechler" style="width:50%">
   <figcaption align="center">Nicolas Kiechler, Fachlehrperson am Gymnasium Kirchenfeld</figcaption>
@@ -33,6 +34,7 @@ ChatGPT ist eine sprachbasierte künstliche Intelligenz, die seit Ende 2019 der 
 
 Das dazugehörige Urteilsvermögen könne den Schülern jedoch fehlen. Der Umgang mit diesen generativen KIs müsste also bewusst gesteuert und kontrolliert werden. Eine mögliche Gefährdung sieht er bereits darin, dass eine Faulheit entstehen würde. Wenn man alles manuell machen würde, müsse man für Microsoft Excel mehr wissen, als wenn man alles von einer KI generieren lassen würde. Die «Bequemlichkeit», die durch diese einfachere Lösung – Künstlicher Intelligenz – entstehe, sieht Nicolas Kiechler auch an der Berufsschule, an der er ebenfalls unterrichtet: «Dort werden Mails teilweise ausschliesslich mit ChatGPT geschrieben», schriftliche Texte zu verlangen, wäre «Voll der Fehler».
 
+
 ## Ungleichheiten bleiben
 
 Weder Menschen noch Algorithmen sind gänzlich neutral und nicht immer geeignet. In einem Bericht von algorithmwatch.ch wird beschrieben, wie sogenannte «Applicant Tracking Systems», auch ATS genannt, benutzt werden. «Durch den Einsatz solcher Systeme können diskriminierende Muster verschärft werden oder gar neue entstehen», behauptet algorithmwatch.ch. Diese «Applicant Tracking Systems» sind in der Regel immer noch herkömmliche Abläufe, die vom Menschen programmiert werden. KI-basierte Systeme werden allerdings bereits in allen möglichen Anwendungen getestet und dürften in Zukunft auch von verschiedenen Unternehmen eingesetzt werden, um Kosten einzusparen. In einer Untersuchung von Findhr.eu wurden ATS mit ausgebildeten Experten in diesem Gebiet verglichen. Sie kam zum Schluss, dass viele der Bewerbenden, die von den Fachpersonen als Top-Kandidaten ausgewählt wurden, von den ATS viel tiefer eingestuft wurden. Der Grund? Findhr.eu vermutet, dass «Applicant Tracking Systems» nicht alle Lebensläufe und Bewerbungen gleich gut lesen könnten und diese in einer bestimmten Struktur bevorzugen würden. Sogar Rassismus sei ein Problem, zeigt ein britischer Bericht von Findhr.eu. Die KI-basierten Systeme zeigten eine Tendenz, Migranten auszuschliessen, obwohl sie besser für den Job geeignet gewesen wären. Selbst mit einem Abschluss an einer Hochschule im Ausland, würde man mit einer Wahrscheinlichkeit von ungefähr 80% eine tiefere Bewertung erhalten. Diese Ergebnisse seien nicht absolut und bräuchten weitere internationale Überprüfung und Bestätigung, jedoch ist ein beängstigender Trend sichtbar. Künstliche Intelligenzen nehmen rassistische und sexistische Angewohnheiten an, da sie von älteren Datensets lernen, in denen diese – heute inkorrekten – Haltungen präsent waren. Diese Algorithmen geben also nur die menschlichen rassistischen Muster wieder. Gesellschaftliche Kritiken gegenüber diesen Verhaltensmustern können sich aber auch negativ auswirken: Die generative Bilderstellungs-KI von OpenAI, DALL-E, wurde dafür kritisiert, zu viele «weisse» Bilder zu erstellen, was in der «Imagen» KI von Google überkompensiert wurde: Historische Figuren werden teilweise mit falscher Hautfarbe generiert.
@@ -42,6 +44,7 @@ Weder Menschen noch Algorithmen sind gänzlich neutral und nicht immer geeignet.
 ATS oder Applicant Tracking Systems, auf Deutsch Bewerbermanagementsystem, sind Algorithmen, die Job-Kandidaten automatisch nach Qualifikation filtern und auswählen sollen. Dafür analysiert es Bewerbungen und vergleicht diese mit einer Datenbank, um die besten herauszufiltern.
 
 {{</box>}}
+
 
 ## Sind wir KI-abhängig?
 
@@ -59,6 +62,7 @@ Als komfortables und unkompliziertes Hilfsmittel ist KI gerne die erste Anlaufst
 Das Ressourcenplanungssystem der BLS plant den Verkehr der Züge. Dieses System der BLS ist im Grunde genommen ein Kompatibilitäts-Prüfer. Es teilt Lokführer auf gewisse Strecken, auf denen sie zertifiziert sind, zu. Den Lokführern wird ein Zug zugewiesen, der speziell für die zu befahrende Strecke geeignet ist.
 
 {{</box>}}
+
 
 ## Entwicklung – Eine Gefahr für die Gesellschaft?
 
