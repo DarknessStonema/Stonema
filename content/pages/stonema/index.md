@@ -3,10 +3,6 @@ title = "Stonema"
 draft = false
 image = "croppedthelaststonemabanner.jpg"
 description = "About me"
-footnotes = ""
+footnotes = "Powered by [Lilo.blog](www.lilo.blog)"
 +++
 ![](croppedthelaststonemabanner.jpg)
-
-
-
-Template of [https://www.lilo.blog](www.lilo.blog)For inquiries, you can reach me at [stonema.music@hotmail.com](stonema.music@hotmail.com).
