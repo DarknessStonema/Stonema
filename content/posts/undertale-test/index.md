@@ -1,7 +1,7 @@
 +++
 title = "Undertale"
 date = "2024-05-06"
-draft = true
+draft = false
 pinned = false
 tags = ["Undertale"]
 image = "header.jpg"
