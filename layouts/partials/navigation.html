@@ -78,15 +78,11 @@
 
     switchElement.addEventListener('change', () => {
       if (switchElement.checked) {
-        // Enable dark mode
-        body.classList.add('dark-mode');
         // Load light mode CSS files
         loadCSS('Lightmode.bootstrap.min.css');
         loadCSS('lightmain.css');
       } else {
         // Disable dark mode
-        body.classList.remove('dark-mode');
-        // Load dark mode CSS files
         loadCSS('Darkmode.bootstrap.min.css');
         loadCSS('darkmain.css');
       }
