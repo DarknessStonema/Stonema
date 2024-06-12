@@ -9,11 +9,11 @@
 	{{ block "head_meta_includes" . }}{{ end }} 
 
 	<!-- Styles -->
-	<link rel="stylesheet" href="Lightmode.bootstrap.min.css">
-  <link rel="stylesheet" href="lightmain.css">
+	<link rel="stylesheet" href="/css/Lightmode.bootstrap.min.css">
+  <link rel="stylesheet" href="/css/lightmain.css">
   <!-- Dark mode styles -->
-  <link rel="stylesheet" href="Darkmode.bootstrap.min.css">
-  <link rel="stylesheet" href="darkmain.css">
+  <link rel="stylesheet" href="/css/Darkmode.bootstrap.min.css">
+  <link rel="stylesheet" href="/css/darkmain.css">
 
 	{{ block "head_includes" . }}{{ end }} 
 	{{ with $settingsCode.Params.siteheader }}{{ . | safeHTML }}{{ end }}
