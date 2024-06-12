@@ -59,7 +59,7 @@
 
     <div class="collapse navbar-collapse" id="main-navigation">
     <a class="nav-link " href="/">Stonema</a>
-    <input type="checkbox" class="theme-checkbox" id="dark-mode-switch" onclick="toggleMode()">
+    <input type="checkbox" class="theme-checkbox" id="dark-mode-switch" onchange="toggleMode()">
       <!-- Begin Menu -->
       <ul class="navbar-nav ms-auto">
         {{ $currentUrl := .RelPermalink }}
@@ -73,9 +73,10 @@
     </div>
   </div>
   <script>
-      function toggleMode() {
+    function toggleMode() {
      var currentStylesheet = document.getElementById('modeStylesheet');
      var isDarkMode = currentStylesheet.href.includes('/css/darkmain.css');
+     var isLightkMode = currentStylesheet.href.includes('/css/lightmain.css');
 
      // Toggle between dark mode and light mode
      if (isDarkMode) {
