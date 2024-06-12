@@ -278,7 +278,7 @@ button:focus:not(:focus-visible){
     outline:0
 }
 button,input,optgroup,select,textarea{
-    margin:0;
+    margin: 16px;
     font-family:inherit;
     font-size:inherit;
     line-height:inherit

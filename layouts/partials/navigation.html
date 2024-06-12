@@ -72,4 +72,32 @@
       <!-- End Menu -->
     </div>
   </div>
+  <script>
+    const switchElement = document.getElementById('dark-mode-switch');
+    const body = document.body;
+
+    switchElement.addEventListener('change', () => {
+      if (switchElement.checked) {
+        // Enable dark mode
+        body.classList.add('dark-mode');
+        // Load light mode CSS files
+        loadCSS('Lightmode.bootstrap.min.css');
+        loadCSS('lightmain.css');
+      } else {
+        // Disable dark mode
+        body.classList.remove('dark-mode');
+        // Load dark mode CSS files
+        loadCSS('Darkmode.bootstrap.min.css');
+        loadCSS('darkmain.css');
+      }
+    });
+
+    // Function to dynamically load CSS files
+    function loadCSS(filename) {
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = filename;
+      document.head.appendChild(link);
+    }
+  </script>
 </nav>
