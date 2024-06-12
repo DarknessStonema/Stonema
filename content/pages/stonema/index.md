@@ -3,7 +3,7 @@ title = "Stonema"
 draft = false
 image = "croppedthelaststonemabanner.jpg"
 description = "Contact and About me"
-footnotes = "stonema.music@hotmail.com"
+footnotes = ""
 +++
 ![](croppedthelaststonemabanner.jpg)
 
