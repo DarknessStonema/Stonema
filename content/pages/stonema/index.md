@@ -2,7 +2,7 @@
 title = "Stonema"
 draft = false
 image = "croppedthelaststonemabanner.jpg"
-description = "Contact and About me"
+description = "About me"
 footnotes = ""
 +++
 ![](croppedthelaststonemabanner.jpg)
