@@ -1,7 +1,7 @@
 +++
-title = "Undertale"
+title = "Undertale Wiki"
 date = "2024-05-06"
-draft = true
+draft = false
 pinned = false
 tags = ["Undertale"]
 image = "header.jpg"
@@ -114,5 +114,3 @@ Asgore's backstory is closely tied to the history of the monsters and their rela
 #### Importance to the Story:
 
 Asgore's character embodies themes of forgiveness, redemption, and the cycle of violence. Players are presented with a moral dilemma when facing Asgore: whether to continue the cycle of violence by defeating him or to find a way to spare him and seek a peaceful resolution. Asgore's actions and motivations are pivotal in shaping the game's different routes and the ultimate fate of the characters. In the Pacifist route, Asgore's interactions with the player and their decisions to spare him contribute to the game's message of hope and reconciliation. His character arc underscores the importance of understanding, empathy, and the power of choices. Overall, Asgore is a complex and multi-dimensional character in "Undertale." His presence in the game challenges players to consider the consequences of their actions and the potential for healing and growth, even in the face of past mistakes and tragedies.
-
-[Download Undertale](download.html)
