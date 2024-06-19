@@ -1,4 +1,4 @@
-{{ $settingsCode := .Site.GetPage "/settings/code" -}}
+{{ $settingsCode := .Site.GetPage "/settings/code/dark" -}}
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,10 +9,13 @@
 	{{ block "head_meta_includes" . }}{{ end }} 
 
 	<!-- Styles -->
-	<link href="/css/Lightmode.bootstrap.min.css" rel="stylesheet">
-	<link href="/css/lightmain.css" rel="stylesheet">
-	<link rel="stylesheet" href="/css/Darkmode.bootstrap.min.css">
-	<link rel="stylesheet" href="/css/darkmain.css">
+	<!-- <link rel="stylesheet" href="/css/Lightmode.bootstrap.min.css">
+  <link rel="stylesheet" href="/css/lightmain.css">
+  Dark mode styles -->
+  <link rel="stylesheet" href="/css/Darkmode.bootstrap.min.css">
+  <link rel="stylesheet" href="/css/darkmain.css">
+  <!-- <link id="modeStylesheet" rel="stylesheet"> -->
+
 
 	{{ block "head_includes" . }}{{ end }} 
 	{{ with $settingsCode.Params.siteheader }}{{ . | safeHTML }}{{ end }}
@@ -33,31 +36,8 @@
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/medium-zoom.min.js"></script>
 <script src="/js/app.js"></script>
+<!--<script src="/js/darkmodeswitch.js"></script>-->
 {{ block "body_includes" . }}{{ end }} 
 {{ with $settingsCode.Params.sitefooter }}{{ . | safeHTML }}{{ end }}
-<script>
-    const switchElement = document.getElementById('dark-mode-switch');
-    const body = document.body;
-
-    switchElement.addEventListener('change', () => {
-      if (switchElement.checked) {
-        // Load light mode CSS files
-        loadCSS('Lightmode.bootstrap.min.css');
-        loadCSS('lightmain.css');
-      } else {
-        // Load dark mode CSS files
-        loadCSS('Darkmode.bootstrap.min.css');
-        loadCSS('darkmain.css');
-      }
-    });
-
-    // Function to dynamically load CSS files
-    function loadCSS(filename) {
-      const link = document.createElement('link');
-      link.rel = 'stylesheet';
-      link.href = filename;
-      document.head.appendChild(link);
-    }
-  </script>
 </body>
 </html>

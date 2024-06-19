@@ -7,7 +7,6 @@ tags = ["Undertale"]
 image = "header.jpg"
 description = "An Undertale Wiki"
 +++
-![](untitled.png)
 
 ## Welcome to the Undertale Wiki
 
