@@ -66,6 +66,7 @@
         {{ range $settingsNavigation.Params.link }}
         <li class="nav-item">
           <a class="nav-link {{ if eq .url $currentUrl }}active{{ end }}" href="{{ .url }}">{{ .title }}</a>
+          <input type="checkbox" class="theme-checkbox">
         </li>
         {{ end }}
       </ul>
