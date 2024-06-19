@@ -59,7 +59,7 @@
 
     <div class="collapse navbar-collapse" id="main-navigation">
     <a class="nav-link " href="/">Home</a>
- 
+    <input type="checkbox" class="theme-checkbox" id="dark-mode-switch" onclick="toggleMode()">
    <!-- <input type="checkbox" class="theme-checkbox" id="dark-mode-switch" onclick="toggleMode()"> 
    Begin Menu -->
       <ul class="navbar-nav ms-auto">
@@ -67,7 +67,6 @@
         {{ range $settingsNavigation.Params.link }}
         <li class="nav-item">
           <a class="nav-link {{ if eq .url $currentUrl }}active{{ end }}" href="{{ .url }}">{{ .title }}</a>
-          <input type="checkbox" class="theme-checkbox">
         </li>
         {{ end }}
       </ul>
